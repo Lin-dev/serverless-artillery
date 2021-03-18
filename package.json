@@ -1,7 +1,7 @@
 {
-  "name": "serverless-artillery",
-  "version": "0.5.2",
-  "description": "A serverless performance testing tool. `serverless` + `artillery` = crush.  a.k.a. Orbital Laziers [sic]",
+  "name": "kayak-serverless-artillery",
+  "version": "0.1.0",
+  "description": "A serverless performance testing tool. ",
   "main": "index.js",
   "bin": {
     "serverless-artillery": "./bin/serverless-artillery",
@@ -17,8 +17,7 @@
     "publish": "./node_modules/.bin/np"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nordstrom/serverless-artillery.git"
+    "type": "git"
   },
   "keywords": [
     "serverless",
@@ -30,12 +29,7 @@
     "scale",
     "lambda"
   ],
-  "author": "Erik Erikson, Greg Smith, Rob Gruhl, Danno Mayer, Andy Day, Grace Lee, Sayna Parsi",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Nordstrom/serverless-artillery/issues"
-  },
-  "homepage": "https://github.com/Nordstrom/serverless-artillery#readme",
   "dependencies": {
     "ajv": "^6.12.3",
     "aws-sdk": "^2.388.0",
