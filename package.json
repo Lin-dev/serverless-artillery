@@ -1,6 +1,7 @@
 {
   "name": "kayak-serverless-artillery",
   "description": "A serverless performance testing tool. ",
+  "version": "0.0.0",
   "main": "index.js",
   "bin": {
     "serverless-artillery": "./bin/serverless-artillery",
